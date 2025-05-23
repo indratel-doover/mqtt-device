@@ -1,0 +1,12 @@
+{
+    "DEVICE_PUBLIC_KEY": "{{ pub_key }}",
+    "DEVICE_PRIVATE_KEY": "{{ priv_key }}",
+    "DEVICE_CERTIFICATE": "{{ device_cert }}",
+    "BROKER_ENDPOINT": "{{ endpoint }}",
+    "CLIENT_ID": "{{ client_id }}",
+    "MQTT_TOPIC_TO_PUBLISH_TO": "{{ uplink_topic }}",
+    "MQTT_TOPIC_TO_SUBSCRIBE_TO": "{{ downlink_topic }}",
+    "BROKER_PORT": {{ endpoint_port }},
+    "ROOT_CA_URL": "https://www.amazontrust.com/repository/AmazonRootCA1.pem",
+  }
+  

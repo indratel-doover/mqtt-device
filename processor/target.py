@@ -45,8 +45,6 @@ class target(ProcessorBase):
             self.on_downlink()
         elif message_type == "UPLINK":
             self.on_uplink()
-        elif message_type == "GENERATE_DUMMY_DATA":
-            self.on_generate_dummy_data()
 
     def on_deploy(self):
         ## Run any deployment code here
